@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ayurevedic-plant-detection",
+  "private_key_id": "4911ef72fe25138260e9114ea0cdc49b968cc97e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDpiYjVg91sdGQd\nwSFpCnH5aEWZ08RKAXQE6EGlMF1Vn48aLfznuWmDYklDXntyCsrFMOOk9FP6TQta\nRi8AWXOFcR+YVzd95ytC5q0OX1+kwrWQeG2jbJGn66k9YpbzVYXAVR4Jw3FZ+1+s\n2ovs2eCAaPkxfdCs75naFPCmHKEIMMKJncMWcKKP22F0ydkYUkCT7WBleNlLzVrQ\n+Drec57SVdHzaAmT9tHbO3dmDfY9INSDGibJQet+dqd+Gjj6ThgUg60vr0hq3lT2\nOZktIw3YYpkWhiKTgmqtmOtlf0M6zPzWQjO4BTmeJd+b0ZxkVFwO2CcJPj+Gyddc\nxgfehYO5AgMBAAECggEAKnBVXuOrKcnO5b9SeHmu85FY0Jb0nTQ9ZqTkRQYQd/5a\nbXn88wk1HOyP/r+dNEC0z3fObov99MbqcLm/UdNvlEjV4oO68FTBflNYEHwRb+n4\nP6w61E9m+rpvE1omr0qT1ztAjaqoHx94p/tBIUYIr50j57QC52JVNZXHk5AxTUDi\nOIHCpNj8i1S9lMINLlciuN7WendbUzffIUZvP7Wn27cj2NFTLSjOsUYwWM0ScrCS\njPaIdQIS8baskpW2fu8nbf7/QdhJERtozBvydpQlYk/1/GjQee2ixczKK3alZLGp\nHtD5grhNYDK7yPWU9bvtWYtGQU14DqDVQSawIp1VGQKBgQD8JxaeNaKYFNY907OA\nTEnN18J43GeM2l/8umQ1X1eC5RTy+28JE+aIKmPC7VwZYmXGJ341ab+JQIV/xdpT\nQLsoX1Jv7S7YKkj/CUpxarETWZd0txY35mpicLguoVjWAQpfxG5LF+8mF3nTzmsY\nqfj0M7UD3xi0EdVGQk0qOgILBQKBgQDtGbvmwQViHxPzkMI3Cm1utFpLXU5vpqgN\nqOr1k3fRZOLm/MMwMC/Yqn5FQ9bXHAiNgK0ek74ZYIEPniXi2iLnr88usHMy/hkz\nlg4bcS3p+hhAJc/q9gwIjQW1zpcQ3PaVMSqEftC4Gx4D64z4vgvDZR0k+rZPEDVj\ni02Om638JQKBgFAshY6Mc0Rz66MA+yQiHZ1rqxQO0IYCsV6ETXSC+ipOeJjBxY5X\nW4eUIuBJ5GzV0pJs4D5Pf20+rLPxzveFr3yowmeAPNLSrx8YbykcyWzjobqktFXV\n16GxQX7iIoL5FblZldAerhWohT4JdhgDg3ryLe4rM4md2fhbAHoas6eZAoGBALYL\nbzEyfL6k2/3D5Mq779/zC+0XnBSv4hJy4sxhSLr2eh0eb4N9TA9QgJkQCFGrTYnQ\nBZwXlfsIFK/4HmC6WdiILUxM4HaDkLgB+5zoXndqtdny7lwaRI0AMiUwlN62uYE9\neca3U+w3rekWn2uRB5kj9qeg8/9qk4N1vrvDHmgdAoGALG4OiZM9pMeP47HweSZB\nAtXZP1CbFY+sb6JtkMdXxz/lIRgFHBtnj3R501smovw1f1JwQdRLOupweDiBgpRT\nJSPoqG3CEvFppZ1wrq+TVAZOxapqFkyimw8C3R3os7xiVN87Z2hT8syCd+JLopxr\nzrgZUcNrjqKVrb4zHLeSGPU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-zflir@ayurevedic-plant-detection.iam.gserviceaccount.com",
+  "client_id": "115783290401282318459",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zflir%40ayurevedic-plant-detection.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
