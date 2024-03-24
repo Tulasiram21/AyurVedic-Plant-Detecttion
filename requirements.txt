@@ -3,5 +3,4 @@ streamlit_option_menu
 firebase_admin
 tensorflow
 pillow
-subprocess
 numpy
