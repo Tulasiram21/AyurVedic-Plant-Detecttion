@@ -2,7 +2,6 @@ streamlit
 streamlit_option_menu
 firebase_admin
 tensorflow
-pickle
 pillow
 subprocess
 numpy
