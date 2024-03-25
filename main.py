@@ -20,7 +20,7 @@ class MultiApp:
         with st.sidebar:
             app = option_menu(
                 menu_title='Menu',
-                options=['Home', 'Account', 'Ayurvedic Plants', 'About'],
+                options=['Home', 'Account', 'Ayurvedic Plants', 'About','Predict'],
                 icons=['house-fill', 'person-circle', 'book-fill', 'info-circle-fill'],
                 menu_icon='chat-text-fill',
                 default_index=0,
@@ -39,5 +39,7 @@ class MultiApp:
             Ayurvedic_Plants.app()
         elif app == 'About':
             about.app()
+        elif app === 'Predict':
+            predict.app()
 
     run()
