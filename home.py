@@ -13,7 +13,7 @@ def app():
     st.write('This website is designed for Identification of Different Medicinal Plants/Raw materials through Image Processing Using Machine Learning Algorithm')
 
     if st.button('Detect Now'):
-        st.markdown("[Detect Now](https://detect-hog1.onrender.com/)")
+        st.markdown("[Detect Now](https://predict-ussx.onrender.com//)")
     
 
 
