@@ -40,6 +40,6 @@ class MultiApp:
         elif app == 'About':
             about.app()
         elif app == 'Predict':
-            app.app())
+            app.app()
 
     run()
