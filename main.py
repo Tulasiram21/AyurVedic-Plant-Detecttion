@@ -20,7 +20,7 @@ class MultiApp:
         with st.sidebar:
             app = option_menu(
                 menu_title='Menu',
-                options=['Home', 'Account', 'Ayurvedic Plants', 'About','Predict'],
+                options=['Home', 'Account', 'Ayurvedic Plants', 'About'],
                 icons=['house-fill', 'person-circle', 'book-fill', 'info-circle-fill'],
                 menu_icon='chat-text-fill',
                 default_index=0,
