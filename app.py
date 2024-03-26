@@ -1,12 +1,11 @@
 import streamlit as st  
 import tensorflow as tf
 from tensorflow.keras import models, layers
-import pickle
 import numpy as np
 from PIL import Image
 
 
-st.set_page_config(page_title="AyurVedic",layout="wide")
+
 
 
 class_names = ['Aloevera', 'Amla', 'Amruta_Balli', 'Arali', 'Ashoka', 'Ashwagandha', 'Avacado', 'Bamboo', 'Basale', 'Betel', 'Betel_Nut',
@@ -36,7 +35,7 @@ def predict(loaded_model, image):
     return predicted_class, confidence
 
 # Main Streamlit app
-def main():
+def app():
     st.title('AyurVedic Plant detection')
     st.write('Upload an image for classification')
 
@@ -56,5 +55,4 @@ def main():
             st.write(f'Predicted Class: {predicted_class}')
             st.write(f'Confidence: {confidence}%')
 
-if __name__ == '__main__':
-    main()
+
