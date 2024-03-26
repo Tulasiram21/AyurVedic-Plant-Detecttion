@@ -39,7 +39,7 @@ class MultiApp:
             Ayurvedic_Plants.app()
         elif app == 'About':
             about.app()
-        elif app === 'Predict':
-            predict.app()
+        elif app == 'Predict':
+            app.app())
 
     run()
