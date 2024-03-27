@@ -39,17 +39,17 @@ def app():
         st.title('AyurVedic Plant detection')
         st.write('Upload an image for classification')
 
-        loaded_model = tf.keras.models.load_model('my_model.keras')
+    loaded_model = tf.keras.models.load_model('my_model.keras')
 
-        uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+    uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
-        if uploaded_file is not None:
-            image = Image.open(uploaded_file)
-            st.image(image, caption='Uploaded Image', use_column_width=True)
+    if uploaded_file is not None:
+        image = Image.open(uploaded_file)
+        st.image(image, caption='Uploaded Image', use_column_width=True)
 
-            if st.button('PREDICT'):
-                predicted_class, confidence = predict(loaded_model, image)
-                st.write(f'Predicted Class: {predicted_class}')
-                st.write(f'Confidence: {confidence}%')
+        if st.button('PREDICT'):
+            predicted_class, confidence = predict(loaded_model, image)
+            st.write(f'Predicted Class: {predicted_class}')
+            st.write(f'Confidence: {confidence}%')
 
 
