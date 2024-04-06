@@ -39,7 +39,7 @@ def app():
         st.title('AyurVedic Plant detection')
         st.write('Upload an image for classification')
 
-    loaded_model = tf.keras.models.load_model('my_model.keras')
+    loaded_model = tf.keras.models.load_model('my_model.keras',compile=False)
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
