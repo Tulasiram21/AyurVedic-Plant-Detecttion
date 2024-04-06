@@ -1,6 +1,6 @@
 streamlit
 streamlit_option_menu
 firebase_admin
-tensorflow 
+tensorflow ==2.5.0
 pillow
-numpy
+numpy==1.19.5
